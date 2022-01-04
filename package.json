@@ -1,5 +1,5 @@
 {
-	"name": "chrome_plugin",
+	"name": "custom-codepen",
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
@@ -8,8 +8,8 @@
 		"build:local": "cross-env NODE_ENV=production webpack --mode=production --progress --config webpack.config.local.js"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Desmond Obisi",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/cli": "^7.13.14",
 		"@babel/core": "^7.13.14",

@@ -18,13 +18,13 @@ export default {
     }`,
 	html: `<div id="root"></div>`,
 	javascript: `function App() {
-        console.log('Pen Editor');
+        console.log('Code Editor');
         console.info('a simple code editor');
-        console.warn('a simple code editor');
-        console.error('a simple code editor');
+        console.warn('runs html, css and js code');
+        console.error('runs react js code too');
         return (
             <div className="blend">
-                <h3>Pen Editor</h3>
+                <h3>Code Editor</h3>
                 <p>a simple code editor</p>
             </div>
         );

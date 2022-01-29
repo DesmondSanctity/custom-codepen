@@ -4,7 +4,7 @@
 	"main": "index.js",
 	"scripts": {
 		"dev": "cross-env NODE_ENV=development webpack-dev-server --inline --mode=development",
-		"build": "INLINE_RUNTIME_CHUNK=false cross-env NODE_ENV=production webpack --mode=production --progress",
+		"build": "cross-env NODE_ENV=production webpack --mode=production --progress",
 		"build:local": "cross-env NODE_ENV=production webpack --mode=production --progress --config webpack.config.local.js"
 	},
 	"keywords": [],
